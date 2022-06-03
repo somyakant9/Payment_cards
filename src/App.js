@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import { PaymentCard } from './components/PaymentCard';
 function App() {
+
+  const cards = [{ id:1, date: "28/10/20", heading: "Amazon Gift Pay", subheading: "Desktop-Mobile", para: "Case Study",logo:"https://tse4.mm.bing.net/th?id=OIP.2WiqonFlHiBEbTcKMaHQIgHaHa&pid=Api&P=0&w=167&h=167" },
+  {id:2, date: "18 Sept 20", heading: "Apple Gift Payment", subheading: "MacOS-Mobile", para: "Case Study",logo:"https://tse2.mm.bing.net/th?id=OIP.RrNq9h2Lq9uWNWAxPVBd0QHaHa&pid=Api&P=0&w=153&h=153" }]
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <PaymentCard cards={cards}/>
+
     </div>
   );
 }

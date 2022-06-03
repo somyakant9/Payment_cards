@@ -1,0 +1,45 @@
+.main {
+   
+    padding: 20px;
+    margin-bottom: 10px;
+   
+}
+
+.topsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttomsection{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.maindiv{
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    padding: 20px;
+}
+.topsection>div>img{
+    height: 50px;
+}
+.buttomsection>div>img{
+    height: 30px;
+}
+.heading{
+    width: 55%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.para{
+    width: 20%;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    background-color: black;
+    color: white;
+}
